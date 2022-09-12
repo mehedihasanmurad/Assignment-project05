@@ -22,8 +22,6 @@ for(let btn of myButton){
 };
 
 
-
-
 document.getElementById('calculate-btn').addEventListener('click',function(){
     const inputFieldValue = document.getElementById('input-field');
     const newInputFieldValueString = inputFieldValue.value;
@@ -54,10 +52,6 @@ document.getElementById('calculate-btn').addEventListener('click',function(){
         const newPriceValue = parseFloat(newPriceValueString);
         const newPrice = newPriceValue + totalPrice;
         priceValue.innerText = newPrice;
-    
-       
-    
-        
     });
 });
 
