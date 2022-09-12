@@ -21,8 +21,17 @@ for(let btn of myButton){
     });
 };
 
+// select-btn-clicked-disabled
+document.getElementById('select-btn').addEventListener('click',function(event){
+    event.target.disabled = true;
+});
 
-document.getElementById('calculate-btn').addEventListener('click',function(){
+function disableBtn(){
+    document.getElementById('btn').disabled = true;
+};
+
+
+document.getElementById('calculate-btn').addEventListener('click', function(){
     const inputFieldValue = document.getElementById('input-field');
     const newInputFieldValueString = inputFieldValue.value;
     const newInputFieldValue = parseFloat(newInputFieldValueString);

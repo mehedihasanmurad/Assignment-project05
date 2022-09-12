@@ -1,3 +1,4 @@
+
 function getInputFieldById(inputId){
     const inputManagerField = document.getElementById(inputId);
     const inputManagerFieldString = inputManagerField.value;
