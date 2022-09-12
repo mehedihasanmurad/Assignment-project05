@@ -38,27 +38,27 @@ document.getElementById('calculate-btn').addEventListener('click',function(){
 
 
     
-    // document.getElementById('total-btn').addEventListener('click',function(){
+    document.getElementById('total-btn').addEventListener('click',function(){
         
-    //     const newInputAmount = getInputFieldById('input-manager');
-    //     // console.log(inputManager);
+        const newInputAmount = getInputFieldById('input-manager');
+        // console.log(inputManager);
     
        
-    //     // console.log(inputCoach);
-    //     const newDepositAmount = getElementValueById('input-coach');
-    //     const totalPrice = newInputAmount + newDepositAmount + totalExpense;
-    //     // console.log(totalPrice);
+        // console.log(inputCoach);
+        const newDepositAmount = getElementValueById('input-coach');
+        const totalPrice = newInputAmount + newDepositAmount + totalExpense;
+        // console.log(totalPrice);
     
-    //     const priceValue = document.getElementById('price-value');
-    //     const newPriceValueString = priceValue.innerText;
-    //     const newPriceValue = parseFloat(newPriceValueString);
-    //     const newPrice = newPriceValue + totalPrice;
-    //     priceValue.innerText = newPrice;
+        const priceValue = document.getElementById('price-value');
+        const newPriceValueString = priceValue.innerText;
+        const newPriceValue = parseFloat(newPriceValueString);
+        const newPrice = newPriceValue + totalPrice;
+        priceValue.innerText = newPrice;
     
        
     
         
-    // });
+    });
 });
 
 
